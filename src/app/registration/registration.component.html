@@ -1,0 +1,73 @@
+<div class="container">
+  <br>
+
+  <mat-card class="signin-card" id='card'>
+
+    <h1 class="text-sm-left text-center">Issue Tracking Tool</h1>
+    <hr>
+    <div *ngIf="!signupForm">
+      <p class="subtitle">Sign-in</p>
+
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Email" [formControl]="emailFormControl" [errorStateMatcher]="matcher"
+          [(ngModel)]="email">
+        <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required') ">
+          Please enter a valid email address
+        </mat-error>
+
+        <mat-error *ngIf="emailFormControl.hasError('required')">
+          Email is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+      <br>
+
+      <mat-form-field hintLabel="Min 8 characters" class="full-width">
+        <input matInput placeholder="Password" type="password" [(ngModel)]="password">
+
+      </mat-form-field>
+
+
+      <button mat-fab color="primary" style="display: block;margin:auto" (click)="signIn()">submit</button>
+    </div>
+
+
+    <div *ngIf="signupForm">
+      <span class="subtitle">Sign-up</span>
+
+      <mat-form-field class="full-width">
+        <input matInput placeholder="First name" type="text" [(ngModel)]="firstName">
+      </mat-form-field>
+
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Last name" type="text" [(ngModel)]="lastName">
+      </mat-form-field>
+
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Email" [formControl]="emailFormControl" [errorStateMatcher]="matcher"
+          [(ngModel)]="email">
+        <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required') ">
+          Please enter a valid email address
+        </mat-error>
+        <mat-error *ngIf="emailFormControl.hasError('required')">
+          Email is <strong>required</strong>
+        </mat-error>
+
+      </mat-form-field>
+      <br>
+
+      <mat-form-field hintLabel="Min 8 characters" class="full-width">
+        <input matInput placeholder="Password" type="password" [(ngModel)]="password">
+      </mat-form-field>
+
+
+      <button mat-fab color="primary" style="display: block;margin:auto" (click)="submit()">submit</button>
+    </div>
+    <br>
+
+    <div (click)="signupForm = !signupForm" class="span-button">
+      <span *ngIf="!signupForm">Register a new user</span> <span *ngIf="signupForm"> SignIn</span>
+    </div>
+
+  </mat-card>
+
+</div>

@@ -1,0 +1,100 @@
+:root {  font-size: 10px; } 
+
+.main-head{
+    margin: auto;
+    margin-top: 12%;
+   
+}
+@media screen and (max-width: 500px){
+  .main-head{
+    margin: auto;
+    margin-top: 18%;
+    font-size: 2rem;
+}
+}
+
+@media screen and (max-width: 276px){
+  .main-head{
+    margin: auto;
+    margin-top: 48%;
+}
+}
+@media screen and (max-width: 226px){
+  .main-head{
+    margin: auto;
+    margin-top: 68%;
+}
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    background-color: rgb(79, 81, 192);
+     color: white;  
+    padding: 10px;
+  
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .title{
+    width: 30%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.gridbtn{
+    width: 30%;
+}
+
+.title-expansion{
+  width: 30%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  color: black !important;
+  font-size: 1.3rem;
+}
+
+.status-done{
+  text-transform: uppercase;
+  color: rgb(238, 234, 30) !important;
+}
+
+.status-progress{
+  text-transform: uppercase;
+  color: rgb(44, 150, 18) !important;
+}
+
+.status-backlog{
+  text-transform: uppercase;
+  color: red !important;
+}
+
+.status-testing{
+  text-transform: uppercase;
+  color: darkorchid;
+}
+
+.slideout{
+  animation: yourAnimation 0.5s forwards 0s ease;
+}
+
+
+@keyframes yourAnimation{
+  0%{
+      transform: translateX(-100%);
+      }
+  100%{
+      transform: translateX(0%);
+      }
+}

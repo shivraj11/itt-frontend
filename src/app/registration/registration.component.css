@@ -1,0 +1,53 @@
+.signin-card{
+    width: 90%;
+    margin: auto;
+     margin-top: 5%;
+}
+ 
+
+  .full-width {
+    width: 100%;
+  }
+
+  .span-button {
+    padding-top: 8px;
+    padding-bottom: 11px;
+    margin-bottom: 16px;
+    background-color: rgb(27, 41, 163);
+    border-radius: 3px;
+    border: 1px solid #d6d9dc;
+    color: #d6d9dc;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    margin: auto;
+}
+
+
+.subtitle{
+    font-size: 24px;
+}
+
+
+.animations{
+    animation: rotator 0.3s forwards 0s linear;
+    -webkit-animation: rotator 0.3s forwards 0s linear;
+}
+
+
+@keyframes rotator{
+    
+    100%{
+        transform: rotate(360deg) ;
+        opacity: 0;
+        }
+}
+
+@-webkit-keyframes rotator{
+    
+    100%{
+        transform: rotate(360deg) ;
+        opacity: 0;
+        }
+} 
+
