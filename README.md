@@ -9,6 +9,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Screenshots
 
 
+## SignUp screen
+![signup](https://user-images.githubusercontent.com/42493916/65635651-55761500-dffe-11e9-8cac-bdb28e9191c2.png)
+
+
+
+## Login Screen
+![login](https://user-images.githubusercontent.com/42493916/65635645-5313bb00-dffe-11e9-9e43-2cfbe29bd35d.png)
+
+
+
 ## Create Issue screen
 ![create](https://user-images.githubusercontent.com/42493916/65635626-498a5300-dffe-11e9-9501-97209424c163.png)
 
@@ -24,13 +34,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 
-## Login Screen
-![login](https://user-images.githubusercontent.com/42493916/65635645-5313bb00-dffe-11e9-9e43-2cfbe29bd35d.png)
 
 
 
-## SignUp screen
-![signup](https://user-images.githubusercontent.com/42493916/65635651-55761500-dffe-11e9-8cac-bdb28e9191c2.png)
+
+
 
 
 
