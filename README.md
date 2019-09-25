@@ -1,7 +1,4 @@
 <<<<<<< HEAD
-# frontend-Issue-tracker-tool
-This Project is the Front-end for issue tracker tool web application.
-=======
 # Issue-Tracker_tool
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
@@ -31,14 +28,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Editable Issue Screen
 ![edit](https://user-images.githubusercontent.com/42493916/65635642-5018ca80-dffe-11e9-8b57-363dc97696e7.png)
-
-
-
-
-
-
-
-
 
 
 
