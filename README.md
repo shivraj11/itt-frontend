@@ -57,10 +57,8 @@ npm install -g @angular/cli
 ```
 5. npm install
 ```
-```
 
-
-9. Project will be up and running on your `http://localhost:4200`
+6. Project will be up and running on your `http://localhost:4200`
 
 ## Running the tests
 
